@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def main():
-    token='5040264690:AAE1ltB5HEHOsyPK8fqxQwKfXGP2ss0y_N0'
+    token='your token'
     bot = telebot.TeleBot(token)
 
     def get_menu():
